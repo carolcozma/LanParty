@@ -1,9 +1,9 @@
-Pentru prima cerință, am creat o listă pentru echipe, în care fiecare element din listă conține o listă de jucători. Am parcurs fișierul și am umplut lista de echipe și de jucători. Apoi am afișat lista rezultată.
+For the first requirement, I created a list for teams where each element in the list contains a list of players. I iterated through the file, filled the list of teams and players, and then displayed the resulting list.
 
-Pentru a doua cerință, am căutat cele n echipe cu cel mai mare punctaj și am eliminat echipele cu punctajul cel mai mic (numărul total de echipe minus n echipe). Am eliminat echipele una câte una, căutând în fiecare iterație echipa cu cel mai mic punctaj, până când am ajuns la n echipe rămase.
+For the second requirement, I searched for the top n teams with the highest score and eliminated the teams with the lowest score (total number of teams minus n teams). I removed the teams one by one, searching for the team with the lowest score in each iteration until reaching n remaining teams.
 
-Pentru a treia cerință, am creat o funcție numită "tournament" care primește coada "team_queue" cu meciurile. În interiorul unei bucle "while" până când numărul de echipe este egal cu 1, am folosit funcția "matches" pentru a selecta echipele și funcția "select_winner" pentru a alege câștigătorul fiecărui meci. Am creat, de asemenea, două stive separate pentru pierzători și câștigători. Când numărul de echipe ajunge la 8, am copiat conținutul cozii de meciuri curente într-o listă.
+For the third requirement, I created a function called "tournament" that takes the "team_queue" queue with matches. Inside a "while" loop until the number of teams equals 1, I used the "matches" function to select the teams and the "select_winner" function to choose the winner of each match. I also created two separate stacks for losers and winners. When the number of teams reaches 8, I copied the contents of the current match queue into a list.
 
-Pentru a patra cerință, am creat funcția "createBST" care creează un arbore binar de căutare folosind lista creată la cerința 3. Am parcurs arborele inordine pentru a afișa echipele în ordine crescătoare.
+For the fourth requirement, I created the "createBST" function that builds a binary search tree using the list created in requirement 3. I traversed the tree in order to display the teams in ascending order.
 
-Pentru a cincea cerință, am creat funcția "createAVL" care ar trebui să creeze un arbore AVL echilibrat. 
+For the fifth requirement, I created the "createAVL" function that should create a balanced AVL tree.
